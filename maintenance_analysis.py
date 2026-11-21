@@ -1,3 +1,7 @@
+# NAME- MANKESH KUMAR GOLA
+# ADDMISSION NO-2026B01010811
+
+
 """
 Machine Maintenance Analysis
 A beginner-friendly data analytics project using pandas, NumPy, matplotlib and seaborn.
