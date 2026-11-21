@@ -1,0 +1,41 @@
+MACHINE MAINTENANCE ANALYSIS SUMMARY
+========================================
+Total machine records: 500
+Records requiring maintenance: 104
+Maintenance-required rate: 20.8%
+
+NUMERIC DESCRIPTIVE STATISTICS
+       Operating_Hours  Temperature_C  Vibration_mm_s  Rotational_Speed_RPM  Tool_Wear_Minutes
+count           500.00         500.00          500.00                500.00             500.00
+mean           5018.85          70.00            3.97               1515.61             156.38
+std            2807.13          12.13            1.51                181.31              88.34
+min             119.00          33.70            0.20                800.00               0.00
+25%            2509.50          62.10            2.92               1401.75              78.00
+50%            4956.50          68.95            3.99               1513.00             165.50
+75%            7336.00          77.68            5.01               1640.00             233.00
+max            9993.00         106.30            8.44               2058.00             299.00
+
+AVERAGE MEASUREMENTS BY MAINTENANCE STATUS
+                      Operating_Hours  Temperature_C  Vibration_mm_s  Rotational_Speed_RPM  Tool_Wear_Minutes
+Maintenance_Required                                                                                         
+No                            4991.87          69.78            3.97               1511.24             157.85
+Yes                           5121.59          70.83            3.97               1532.25             150.78
+
+FAILURE TYPE COUNTS
+Failure_Type
+Not Recorded    388
+Overheat         45
+Wear             39
+Power            28
+
+CORRELATION MATRIX
+                      Operating_Hours  Temperature_C  Vibration_mm_s  Rotational_Speed_RPM  Tool_Wear_Minutes
+Operating_Hours                  1.00          -0.01           -0.03                  0.04               0.05
+Temperature_C                   -0.01           1.00           -0.02                 -0.00              -0.01
+Vibration_mm_s                  -0.03          -0.02            1.00                  0.05               0.05
+Rotational_Speed_RPM             0.04          -0.00            0.05                  1.00              -0.09
+Tool_Wear_Minutes                0.05          -0.01            0.05                 -0.09               1.00
+
+Interpretation note: group differences and correlations describe association,
+not proof that a measurement causes maintenance to be required.
+Failure_Type values marked 'Not Recorded' were missing in the original file.

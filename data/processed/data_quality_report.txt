@@ -1,0 +1,37 @@
+MACHINE MAINTENANCE DATA QUALITY REPORT
+==========================================
+Raw rows: 500
+Rows after duplicate removal: 500
+Exact duplicate rows removed: 0
+
+Missing values in raw data:
+Machine_ID                0
+Operating_Hours           0
+Temperature_C             0
+Vibration_mm_s            9
+Rotational_Speed_RPM      0
+Tool_Wear_Minutes         0
+Maintenance_Required      0
+Failure_Type            388
+
+Missing values after cleaning:
+Machine_ID              0
+Operating_Hours         0
+Temperature_C           0
+Vibration_mm_s          0
+Rotational_Speed_RPM    0
+Tool_Wear_Minutes       0
+Maintenance_Required    0
+Failure_Type            0
+
+Maintenance required counts:
+Maintenance_Required
+No     396
+Yes    104
+
+Failure type counts (missing values labelled 'Not Recorded'):
+Failure_Type
+Not Recorded    388
+Overheat         45
+Wear             39
+Power            28
